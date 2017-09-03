@@ -25,9 +25,11 @@
 # for autolaunch
 
 cd eset
+
 screen ./bot cli
 
 cd eset
+
 screen ./bot api
 
 * * *
