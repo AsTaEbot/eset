@@ -14675,6 +14675,7 @@ If you *want* to get the bot phone number , send command *Botphone* .]], 1, "md"
               local helppanel = helpen.helppanel
               local helpclean = helpen.helpclean
               local helpwarn = helpen.helpwarn
+			  local helpfun = helpen.helpfun
               if text:match("^1$") then
                 database:del("helptime:" .. msg.chat_id_)
                 send_large_msg(msg.chat_id_, msg.id_, 1, helpvaziat, 1, "md")
@@ -14705,6 +14706,9 @@ If you *want* to get the bot phone number , send command *Botphone* .]], 1, "md"
               elseif text:match("^10$") then
                 database:del("helptime:" .. msg.chat_id_)
                 send_large_msg(msg.chat_id_, msg.id_, 1, helpwarn, 1, "md")
+			  elseif text:match("^11$") then
+                database:del("helptime:" .. msg.chat_id_)
+                send_large_msg(msg.chat_id_, msg.id_, 1, helpfun, 1, "md")
               elseif text:match("^0$") then
                 send_large_msg(msg.chat_id_, msg.id_, 1, "• The Operation was *Canceled* !", 1, "md")
                 database:del("helptime:" .. msg.chat_id_)
@@ -14725,6 +14729,7 @@ If you *want* to get the bot phone number , send command *Botphone* .]], 1, "md"
               local helppanel = helpfa.helppanel
               local helpclean = helpfa.helpclean
               local helpwarn = helpfa.helpwarn
+			  local helpfun = helpfa.helpfun
               if text:match("^1$") then
                 database:del("helptime:" .. msg.chat_id_)
                 send_large_msg(msg.chat_id_, msg.id_, 1, helpvaziat, 1, "md")
@@ -14755,6 +14760,9 @@ If you *want* to get the bot phone number , send command *Botphone* .]], 1, "md"
               elseif text:match("^10$") then
                 database:del("helptime:" .. msg.chat_id_)
                 send_large_msg(msg.chat_id_, msg.id_, 1, helpwarn, 1, "md")
+			  elseif text:match("^11$") then
+                database:del("helptime:" .. msg.chat_id_)
+                send_large_msg(msg.chat_id_, msg.id_, 1, helpfun, 1, "md")
               elseif text:match("^0$") then
                 send(msg.chat_id_, msg.id_, 1, "• عملیات لغو گردید !", 1, "md")
                 database:del("helptime:" .. msg.chat_id_)
@@ -14801,7 +14809,7 @@ If you *want* to get the bot phone number , send command *Botphone* .]], 1, "md"
           end
         end
         if is_momod(msg.sender_user_id_, msg.chat_id_) and (text:match("^[Tt]ime$") or text:match("^زمان$")) and check_user_channel(msg) then
-          local url, res = https.request("https://irapi.ir/time")
+          local url, res = https.request("https://irapi.ir/time/")
           if res == 200 then
             local jdat = json.decode(url)
             if jdat.FAtime and jdat.FAdate and jdat.ENtime and jdat.ENdate then
