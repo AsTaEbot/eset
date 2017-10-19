@@ -30,16 +30,17 @@
 # • For Autolaunch
 [• ترمینال جدید را باز کرده و این دستورات را بزنید]
 [• این دستورات برای روشن نگاه داشتن ربات است]
-killall screen
+<pre>
+<span>killall screen<span>
 
-killall bash
+<span>killall bash<span>
 
-killalll tmux
+<span>killalll tmux<span>
 
-cd eset
+<span>cd eset<span>
 
-screen ./bot cli
-
+<span>screen ./bot cli<span>
+<pre>
 •••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
 
 cd eset
