@@ -8,7 +8,7 @@
 <h6>[• Inter line By line in Terminal ]</h6>
 <h6>[ این کد ها را وارد کنیید •)</h6>
 <pre>
-<span>git clone https://github.com/Astaebot/eset.git<span>
+<span>git clone https://github.com/AsTaEbot/eset.git<span>
 <span>cd eset<span>
 <span>chmod +x bot<span>
 <span>./bot install<span>
