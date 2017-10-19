@@ -15,7 +15,7 @@
 </pre>
 
 <h4> <strong>[• After installing  the prerequisites,Run the cli bot]<br></strong>
-<h4> <strong>[•  بعد از نصب  ربات سیل را ران کنید و مشخصات خود را وارد کنید]<br></strong>
+<h4> <strong>[•  بعد از نصب  ربات سیل را ران کنید و مشخصات خود را وارد کنید ]<br></strong>
 <pre>
 <span>./bot cli<span>
 </pre>
@@ -29,7 +29,7 @@
 
 # • For Autolaunch
 
-<h4> <strong>[• ترمینال جدید را باز کرده و این دستورات را بزنید]<br></strong>
+<h4> <strong>[• ترمینال جدید را باز کرده و این دستورات را بزنید ]<br></strong>
 <h4> <strong>[• این دستورات برای روشن نگاه داشتن ربات است]<br></strong>
 
 
@@ -39,13 +39,15 @@
 <span>&& cd eset<span>
 <span>&& screen ./bot cli<span>
 
-<h4> <strong>[• ترمینال جدید دیگری را باز کرده و این دستورات را بزنید]<br></strong>
+<h4> <strong>[• ترمینال جدید دیگری را باز کرده و این دستورات را بزنید ]<br></strong>
 
 
 <span>cd eset<span>
 <span>&& screen ./bot api<span>
 
+<h4> <strong>[• برای درست کردن امکانات فان دستورات زیر را بزنید ]<br></strong>
 
+<span>cd eset && unzip data.zip<span>
 
 # • Developers!
 [AsTaE_BoT](https://github.com/AsTaE_BoT)
