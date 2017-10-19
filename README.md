@@ -33,15 +33,15 @@
 <h4> <strong>[• این دستورات برای روشن نگاه داشتن ربات است]<br></strong>
 
 <span>killall screen<span>
-<span>killall bash<span>
-<span>killalll tmux<span>
-<span>cd eset<span>
-<span>screen ./bot cli<span>
+<span>&& killall bash<span>
+<span>&& killalll tmux<span>
+<span>&& cd eset<span>
+<span>&& screen ./bot cli<span>
 
 <h4> <strong>[• ترمینال جدید دیگری را باز کرده و این دستورات را بزنید]<br></strong>
 
 <span>cd eset<span>
-<span>screen ./bot api<span>
+<span>&& screen ./bot api<span>
 
 
 
