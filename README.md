@@ -37,13 +37,14 @@
 <span>cd eset<span>
 <span>screen ./bot cli<span>
 <pre>
-
 <h4> <strong>[• ترمینال جدید دیگری را باز کرده و این دستورات را بزنید]<br></strong>
 <pre>
 <span>cd eset<span>
 <span>screen ./bot api<span>
 <pre>
 •••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+
 
 # • Developers!
 [AsTaE_BoT](https://github.com/AsTaE_BoT)
