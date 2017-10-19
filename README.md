@@ -1,4 +1,3 @@
-#•ESET•
 <h1><p align="center"> •ESET•
 <h2><p align="center">bad decompile version of a famous Telgram bot in °Lua°
 
@@ -14,8 +13,8 @@
 <span>./bot install<span>
 </pre>
 
-<h4> <strong>After installing  the prerequisites,Run the cli bot<br></strong>
-<h4> <strong>[• بعد از نصب  ربات cil را  ران کنید و مشخصات خود را وارد کنید ]<br></strong>
+<h4> <strong>[• After installing  the prerequisites,Run the cli bot]<br></strong>
+<h4> <strong>[•  بعد از نصب  ربات سیل را ران کنید و مشخصات خود را وارد کنید]<br></strong>
 <pre>
 <span>./bot cli<span>
 </pre>
@@ -27,7 +26,7 @@
 <h4>its done!Have fun</strong>
 <h4>[• تموم شد حال کنید دعا یادتون نرود فقط |: ]</strong>
 
-# For Autolaunch
+# •For Autolaunch
 [• ترمینال جدید را باز کرده و این دستورات را بزنید]
 [• این دستورات برای روشن نگاه داشتن ربات است]
 killall screen
@@ -48,14 +47,14 @@ screen ./bot api
 
 #••••••••••••••••••••••••••••••••••••••••••••••••••
 
-# Developers!
+# •Developers!
 [AsTaE_BoT](https://github.com/AsTaE_BoT)
  ([Telegram](https://telegram.me/AsTaE_Bot))
  
 [M_a_h_D_i_R_o_O](https://github.com/M_a_h_D_i_R_o_O)
  ([Telegram](https://telegram.me/M_a_h_D_i_R_o_O))
 
-### Our Telegram Channel:
+### •Our Telegram Channel:
 
 [@SShteam](https://telegram.me/SShteam)
 
