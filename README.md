@@ -3,7 +3,8 @@
 
 
 
-<h3> <strong> Installation </strong>
+<h3> <strong> • Installation </strong>
+<h3> <strong> • نصب ربات </strong>
 <h6>[• Inter line By line in Terminal ]</h6>
 <h6>[ این کد ها را وارد کنیید •)</h6>
 <pre>
@@ -26,7 +27,7 @@
 <h4>its done!Have fun</strong>
 <h4>[• تموم شد حال کنید دعا یادتون نرود فقط |: ]</strong>
 
-# •For Autolaunch
+# • For Autolaunch
 [• ترمینال جدید را باز کرده و این دستورات را بزنید]
 [• این دستورات برای روشن نگاه داشتن ربات است]
 killall screen
@@ -47,14 +48,14 @@ screen ./bot api
 
 #••••••••••••••••••••••••••••••••••••••••••••••••••
 
-# •Developers!
+# • Developers!
 [AsTaE_BoT](https://github.com/AsTaE_BoT)
  ([Telegram](https://telegram.me/AsTaE_Bot))
  
 [M_a_h_D_i_R_o_O](https://github.com/M_a_h_D_i_R_o_O)
  ([Telegram](https://telegram.me/M_a_h_D_i_R_o_O))
 
-### •Our Telegram Channel:
+### • Our Telegram Channel:
 
 [@SShteam](https://telegram.me/SShteam)
 
