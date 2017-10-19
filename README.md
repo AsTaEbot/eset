@@ -28,20 +28,21 @@
 <h4>[• تموم شد حال کنید دعا یادتون نرود فقط |: ]</strong>
 
 # • For Autolaunch
+
 <h4> <strong>[• ترمینال جدید را باز کرده و این دستورات را بزنید]<br></strong>
 <h4> <strong>[• این دستورات برای روشن نگاه داشتن ربات است]<br></strong>
-<pre>
+
 <span>killall screen<span>
 <span>killall bash<span>
 <span>killalll tmux<span>
 <span>cd eset<span>
 <span>screen ./bot cli<span>
-<pre>
+
 <h4> <strong>[• ترمینال جدید دیگری را باز کرده و این دستورات را بزنید]<br></strong>
-<pre>
+
 <span>cd eset<span>
 <span>screen ./bot api<span>
-<pre>
+
 
 
 # • Developers!
