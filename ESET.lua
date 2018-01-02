@@ -2476,7 +2476,7 @@ function tdcli_update_callback(data)
             delete_msg(chat, msgs)
             print_del_msg("Deleted Because [Lock] [Hashtag] [Photo]")
           end
-          if msg.content_.caption_:match("[Hh][Tt][Tt][Pp][Ss]:[//]") or msg.content_.caption_:match("[Hh][Tt][Tt][Pp]:[//]") or msg.content_.caption_:match("[Ww][Ww][Ww]") or msg.content_.caption_:match(".[Cc][Oo]") or msg.content_.caption_:match(".[Ii][Rr]") or msg.content_.caption_:match(".[Oo][Rr][Gg]") then
+          if msg.content_.caption_:match("[Hh][Tt][Tt][Pp][Ss]:[//]") or msg.content_.caption_:match("[Hh][Tt][Tt][Pp]:[//]") or msg.content_.caption_:match("[Ww][Ww][Ww]") or msg.content_.caption_:match("%.[Cc][Oo]") or msg.content_.caption_:match("%.[Ii][Rr]") or msg.content_.caption_:match("%.[Oo][Rr][Gg]") then
             if database:get("bot:webpage:mute" .. msg.chat_id_) then
               local id = msg.id_
               local msgs = {
@@ -4077,7 +4077,7 @@ The *Number* of *Warnings* user : `[]] .. warns .. "/" .. sencwarn .. "]`", 1, "
             delete_msg(chat, msgs)
             print_del_msg("Deleted Because [Lock] [Hashtag] [Document]")
           end
-          if msg.content_.caption_:match("[Hh][Tt][Tt][Pp][Ss]:[//]") or msg.content_.caption_:match("[Hh][Tt][Tt][Pp]:[//]") or msg.content_.caption_:match("[Ww][Ww][Ww]") or msg.content_.caption_:match(".[Cc][Oo]") or msg.content_.caption_:match(".[Ii][Rr]") or msg.content_.caption_:match(".[Oo][Rr][Gg]") then
+          if msg.content_.caption_:match("[Hh][Tt][Tt][Pp][Ss]:[//]") or msg.content_.caption_:match("[Hh][Tt][Tt][Pp]:[//]") or msg.content_.caption_:match("[Ww][Ww][Ww]") or msg.content_.caption_:match("%.[Cc][Oo]") or msg.content_.caption_:match("%.[Ii][Rr]") or msg.content_.caption_:match("%.[Oo][Rr][Gg]") then
             if database:get("bot:webpage:mute" .. msg.chat_id_) then
               local id = msg.id_
               local msgs = {
@@ -4444,7 +4444,7 @@ The *Number* of *Warnings* user : `[]] .. warns .. "/" .. sencwarn .. "]`", 1, "
             delete_msg(chat, msgs)
             print_del_msg("Deleted Because [Lock] [Hashtag] [Audio]")
           end
-          if msg.content_.caption_:match("[Hh][Tt][Tt][Pp][Ss]:[//]") or msg.content_.caption_:match("[Hh][Tt][Tt][Pp]:[//]") or msg.content_.caption_:match("[Ww][Ww][Ww]") or msg.content_.caption_:match(".[Cc][Oo]") or msg.content_.caption_:match(".[Ii][Rr]") or msg.content_.caption_:match(".[Oo][Rr][Gg]") then
+          if msg.content_.caption_:match("[Hh][Tt][Tt][Pp][Ss]:[//]") or msg.content_.caption_:match("[Hh][Tt][Tt][Pp]:[//]") or msg.content_.caption_:match("[Ww][Ww][Ww]") or msg.content_.caption_:match("%.[Cc][Oo]") or msg.content_.caption_:match("%.[Ii][Rr]") or msg.content_.caption_:match("%.[Oo][Rr][Gg]") then
             if database:get("bot:webpage:mute" .. msg.chat_id_) then
               local id = msg.id_
               local msgs = {
@@ -4633,7 +4633,7 @@ The *Number* of *Warnings* user : `[]] .. warns .. "/" .. sencwarn .. "]`", 1, "
             delete_msg(chat, msgs)
             print_del_msg("Deleted Because [Lock] [Hashtag] [Voice]")
           end
-          if msg.content_.caption_:match("[Hh][Tt][Tt][Pp][Ss]:[//]") or msg.content_.caption_:match("[Hh][Tt][Tt][Pp]:[//]") or msg.content_.caption_:match("[Ww][Ww][Ww]") or msg.content_.caption_:match(".[Cc][Oo]") or msg.content_.caption_:match(".[Ii][Rr]") or msg.content_.caption_:match(".[Oo][Rr][Gg]") then
+          if msg.content_.caption_:match("[Hh][Tt][Tt][Pp][Ss]:[//]") or msg.content_.caption_:match("[Hh][Tt][Tt][Pp]:[//]") or msg.content_.caption_:match("[Ww][Ww][Ww]") or msg.content_.caption_:match("%.[Cc][Oo]") or msg.content_.caption_:match("%.[Ii][Rr]") or msg.content_.caption_:match("%.[Oo][Rr][Gg]") then
             if database:get("bot:webpage:mute" .. msg.chat_id_) then
               local id = msg.id_
               local msgs = {
@@ -4822,7 +4822,7 @@ The *Number* of *Warnings* user : `[]] .. warns .. "/" .. sencwarn .. "]`", 1, "
             delete_msg(chat, msgs)
             print_del_msg("Deleted Because [Lock] [Hashtag] [Location]")
           end
-          if msg.content_.caption_:match("[Hh][Tt][Tt][Pp][Ss]:[//]") or msg.content_.caption_:match("[Hh][Tt][Tt][Pp]:[//]") or msg.content_.caption_:match("[Ww][Ww][Ww]") or msg.content_.caption_:match(".[Cc][Oo]") or msg.content_.caption_:match(".[Ii][Rr]") or msg.content_.caption_:match(".[Oo][Rr][Gg]") then
+          if msg.content_.caption_:match("[Hh][Tt][Tt][Pp][Ss]:[//]") or msg.content_.caption_:match("[Hh][Tt][Tt][Pp]:[//]") or msg.content_.caption_:match("[Ww][Ww][Ww]") or msg.content_.caption_:match("%.[Cc][Oo]") or msg.content_.caption_:match("%.[Ii][Rr]") or msg.content_.caption_:match("%.[Oo][Rr][Gg]") then
             if database:get("bot:webpage:mute" .. msg.chat_id_) then
               local id = msg.id_
               local msgs = {
@@ -5011,7 +5011,7 @@ The *Number* of *Warnings* user : `[]] .. warns .. "/" .. sencwarn .. "]`", 1, "
             delete_msg(chat, msgs)
             print_del_msg("Deleted Because [Lock] [Hashtag] [Video]")
           end
-          if msg.content_.caption_:match("[Hh][Tt][Tt][Pp][Ss]:[//]") or msg.content_.caption_:match("[Hh][Tt][Tt][Pp]:[//]") or msg.content_.caption_:match("[Ww][Ww][Ww]") or msg.content_.caption_:match(".[Cc][Oo]") or msg.content_.caption_:match(".[Ii][Rr]") or msg.content_.caption_:match(".[Oo][Rr][Gg]") then
+          if msg.content_.caption_:match("[Hh][Tt][Tt][Pp][Ss]:[//]") or msg.content_.caption_:match("[Hh][Tt][Tt][Pp]:[//]") or msg.content_.caption_:match("[Ww][Ww][Ww]") or msg.content_.caption_:match("%.[Cc][Oo]") or msg.content_.caption_:match("%.[Ii][Rr]") or msg.content_.caption_:match("%.[Oo][Rr][Gg]") then
             if database:get("bot:webpage:mute" .. msg.chat_id_) then
               local id = msg.id_
               local msgs = {
@@ -5200,7 +5200,7 @@ The *Number* of *Warnings* user : `[]] .. warns .. "/" .. sencwarn .. "]`", 1, "
             delete_msg(chat, msgs)
             print_del_msg("Deleted Because [Lock] [Hashtag] [Self Video]")
           end
-          if msg.content_.caption_:match("[Hh][Tt][Tt][Pp][Ss]:[//]") or msg.content_.caption_:match("[Hh][Tt][Tt][Pp]:[//]") or msg.content_.caption_:match("[Ww][Ww][Ww]") or msg.content_.caption_:match(".[Cc][Oo]") or msg.content_.caption_:match(".[Ii][Rr]") or msg.content_.caption_:match(".[Oo][Rr][Gg]") then
+          if msg.content_.caption_:match("[Hh][Tt][Tt][Pp][Ss]:[//]") or msg.content_.caption_:match("[Hh][Tt][Tt][Pp]:[//]") or msg.content_.caption_:match("[Ww][Ww][Ww]") or msg.content_.caption_:match("%.[Cc][Oo]") or msg.content_.caption_:match("%.[Ii][Rr]") or msg.content_.caption_:match("%.[Oo][Rr][Gg]") then
             if database:get("bot:webpage:mute" .. msg.chat_id_) then
               local id = msg.id_
               local msgs = {
@@ -5389,7 +5389,7 @@ The *Number* of *Warnings* user : `[]] .. warns .. "/" .. sencwarn .. "]`", 1, "
             delete_msg(chat, msgs)
             print_del_msg("Deleted Because [Lock] [Hashtag] [Gif]")
           end
-          if msg.content_.caption_:match("[Hh][Tt][Tt][Pp][Ss]:[//]") or msg.content_.caption_:match("[Hh][Tt][Tt][Pp]:[//]") or msg.content_.caption_:match("[Ww][Ww][Ww]") or msg.content_.caption_:match(".[Cc][Oo]") or msg.content_.caption_:match(".[Ii][Rr]") or msg.content_.caption_:match(".[Oo][Rr][Gg]") then
+          if msg.content_.caption_:match("[Hh][Tt][Tt][Pp][Ss]:[//]") or msg.content_.caption_:match("[Hh][Tt][Tt][Pp]:[//]") or msg.content_.caption_:match("[Ww][Ww][Ww]") or msg.content_.caption_:match("%.[Cc][Oo]") or msg.content_.caption_:match("%.[Ii][Rr]") or msg.content_.caption_:match("%.[Oo][Rr][Gg]") then
             if database:get("bot:webpage:mute" .. msg.chat_id_) then
               local id = msg.id_
               local msgs = {
@@ -5867,7 +5867,7 @@ If You No Longer Want To Filter a Word, Send The /done Command !]], 1, "md")
             delete_msg(chat, msgs)
             print_del_msg("Deleted Because [Lock] [Hashtag] [Text]")
           end
-          if msg.content_.text_:match("[Hh][Tt][Tt][Pp][Ss]:[//]") or msg.content_.text_:match("[Hh][Tt][Tt][Pp]:[//]") or msg.content_.text_:match("[Ww][Ww][Ww]") or msg.content_.text_:match(".[Cc][Oo]") or msg.content_.text_:match(".[Ii][Rr]") or msg.content_.text_:match(".[Oo][Rr][Gg]") then
+          if msg.content_.text_:match("[Hh][Tt][Tt][Pp][Ss]:[//]") or msg.content_.text_:match("[Hh][Tt][Tt][Pp]:[//]") or msg.content_.text_:match("[Ww][Ww][Ww]") or msg.content_.text_:match("%.[Cc][Oo]") or msg.content_.text_:match("%.[Ii][Rr]") or msg.content_.text_:match("%.[Oo][Rr][Gg]") then
             if database:get("bot:webpage:mute" .. msg.chat_id_) then
               local id = msg.id_
               local msgs = {
@@ -15364,7 +15364,7 @@ If you *want* to get the bot phone number , send command *Botphone* .]], 1, "md"
                   }
                   delete_msg(msg.chat_id_, msgs)
                 end
-                if (text:match("[Hh][Tt][Tt][Pp]") or text:match("[Ww][Ww][Ww]") or text:match(".[Cc][Oo]") or text:match(".[Oo][Rr][Gg]") or text:match(".[Ii][Rr]")) and database:get("bot:webpage:mute" .. result.chat_id_) then
+                if (text:match("[Hh][Tt][Tt][Pp]") or text:match("[Ww][Ww][Ww]") or text:match("%.[Cc][Oo]") or text:match("%.[Oo][Rr][Gg]") or text:match("%.[Ii][Rr]")) and database:get("bot:webpage:mute" .. result.chat_id_) then
                   local msgs = {
                     [0] = data.message_id_
                   }
